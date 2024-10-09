@@ -1,0 +1,16 @@
+[project]
+name = "cocome"
+version = "0.1.0"
+description = "A CLI tool to check Conventional Commit Messages."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "typer>=0.12.5",
+]
+
+[project.scripts]
+cocome = "cocome:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
