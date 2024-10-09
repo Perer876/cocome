@@ -15,5 +15,6 @@ def goodbye(name: str, formal: bool = False):
     else:
         print(f"Bye {name}!")
 
+
 def main() -> None:
     app()
